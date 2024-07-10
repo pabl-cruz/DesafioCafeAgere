@@ -3,9 +3,10 @@
   width: 50%;
   max-height: 20%;
   background: $white;
+  z-index: 2;
   &__feature{
-    padding: 2rem;
-    width: 16%;
+    padding:1.6rem;
+    width: 17%;
     &--button{
       background-color: $coral;
     }
@@ -18,10 +19,10 @@
     position: relative;
     color: $white;
     background-color: $flame;
-    padding-top: 72px;
+    padding-top: 69px;
     top: -6vh;
     left: -3vw;
-    width: 149%;
-    height: 100%;
+    width: 140%;
+    height: 98%;
   }
 }

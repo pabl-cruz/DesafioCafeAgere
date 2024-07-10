@@ -60,10 +60,11 @@
   width: 50%;
   max-height: 20%;
   background: #ffffff;
+  z-index: 2;
 }
 .features__feature {
-  padding: 2rem;
-  width: 16%;
+  padding: 1.6rem;
+  width: 17%;
 }
 .features__feature--button {
   background-color: #eacb31;
@@ -76,16 +77,51 @@
   position: relative;
   color: #ffffff;
   background-color: #e4572e;
-  padding-top: 72px;
+  padding-top: 69px;
   top: -6vh;
   left: -3vw;
-  width: 149%;
-  height: 100%;
+  width: 140%;
+  height: 98%;
+}
+
+.images {
+  width: 25%;
+}
+.images__cafe {
+  width: 150px;
+  position: absolute;
+  height: 270px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-left: -65px;
+  z-index: 2;
+}
+.images__image {
+  width: 100%;
+  margin-bottom: -4px;
+  height: 30vh;
 }
 
 .navbar__logo {
   width: 8%;
   margin-right: 5rem;
+}
+
+.meetus__title {
+  margin-top: 3rem;
+}
+.meetus__text {
+  padding: 2rem 5rem 5rem 5rem;
+}
+
+.map {
+  background-color: #3c91e6;
+}
+.map__image {
+  width: 85%;
+  position: relative;
+  top: 51px;
+  right: 31px;
 }
 
 .navbar__navlinks {
@@ -99,7 +135,7 @@
 }
 
 .hero__title {
-  padding: 6rem;
+  padding: 4rem;
 }
 .hero__subTitle {
   padding-top: 1rem;
@@ -118,6 +154,7 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .header__navbar {
@@ -133,7 +170,7 @@
 }
 
 .hero__imageContainer {
-  width: 70%;
+  width: 75%;
   height: 60vh;
 }
 .hero__image {
@@ -147,12 +184,23 @@
 }
 
 .features {
-  top: 55vh;
-  left: 33vw;
+  top: 53vh;
+  left: 36vw;
+}
+
+.meetus {
+  width: 75%;
+}
+.meetus__text {
+  width: 35%;
+}
+
+.map {
+  width: 52%;
 }
 
 svg {
-  font-size: 3rem;
+  font-size: 4rem;
 }
 
 .d-inlineflex {

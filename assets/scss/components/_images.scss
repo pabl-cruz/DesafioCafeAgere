@@ -1,0 +1,16 @@
+.images{
+  width: 25%;
+  &__cafe{
+    width: 150px;
+    position: absolute;
+    height: 270px;
+    object-fit: cover;
+    margin-left: -65px;
+    z-index: 2;
+  }
+  &__image{
+    width: 100%;
+    margin-bottom: -4px;
+    height: 30vh;
+  }
+}
