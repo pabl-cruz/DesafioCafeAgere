@@ -1,1 +1,123 @@
-/*# sourceMappingURL=main.css.map */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+  text-decoration: none;
+  color: unset;
+}
+
+:root {
+  font-family: "PT Mono", "Roboto", sans-serif;
+}
+
+.xxx-large {
+  font-family: "PT Mono";
+  font-size: 70px;
+  font-weight: 500;
+}
+
+.xx-large {
+  font-family: "PT Mono";
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.xx-large {
+  font-family: "PT Mono";
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.large {
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.medium {
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.navbar__button {
+  border: 1px solid #989797;
+  padding: 5px;
+  color: #989797;
+  margin: 0 0.7rem 0 0.7rem;
+  align-self: center;
+}
+.navbar__button--signup {
+  color: #ffffff;
+  background-color: #4ca866;
+  border: none;
+  padding: 6px;
+  margin-right: 0;
+}
+
+.navbar__logo {
+  width: 8%;
+  margin-right: 5rem;
+}
+
+.navbar__navlinks {
+  list-style: none;
+  display: inline-flex;
+}
+.navbar__link {
+  align-self: center;
+  padding: 0 1rem 0 1rem;
+  color: #989797;
+}
+
+.hero__title {
+  padding: 6rem;
+}
+.hero__subTitle {
+  padding-top: 1rem;
+}
+
+.container {
+  display: flex;
+  width: 85%;
+  margin: 0 auto;
+}
+.container__fluid {
+  width: 100%;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.header__navbar {
+  padding: 2rem;
+}
+
+.navbar__buttons {
+  display: inline-flex;
+}
+.navbar__row {
+  width: 100%;
+  justify-content: space-between;
+}
+
+.hero__imageContainer {
+  width: 70%;
+  height: 60vh;
+}
+.hero__image {
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+}
+.hero__title {
+  width: 17%;
+}
+
+.d-inlineflex {
+  display: inline-flex;
+}/*# sourceMappingURL=main.css.map */

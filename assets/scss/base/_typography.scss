@@ -1,0 +1,23 @@
+:root{
+  font-family: $pt, $roboto, sans-serif;
+}
+
+.xxx-large{
+  @include font($pt, 70px, 500);
+}
+
+.xx-large{
+  @include font($pt, 40px, 600);
+}
+
+.xx-large{
+  @include font($pt, 30px, 600);
+}
+
+.large{
+  @include font($roboto, 18px, 300);
+}
+
+.medium{
+  @include font($roboto, 16px, 300);
+}

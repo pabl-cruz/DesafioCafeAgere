@@ -1,0 +1,15 @@
+.header{
+  &__navbar{
+    padding: 2rem; 
+  }
+}
+
+.navbar{
+  &__buttons{
+    display: inline-flex;
+  }
+  &__row{
+    width: 100%;
+    justify-content:space-between;
+  }
+}

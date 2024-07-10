@@ -21,22 +21,25 @@ crossorigin="anonymous"
 </head>
 <body>
   <header class="header">
-    <nav class="navbar row">
-      <div class="navbar__logo">
-        <img src="assets/img/logo.png" alt="logo agere">
-      </div>
-      <div class="navbar__navlinks">
-        <ul>
-          <li class="navbar__link x-large"><a href="#">Acerca de:</a></li>
-          <li class="navbar__link x-large"><a href="#">Tienda:</a></li>
-        </ul>
-      </div>
-      <div class="navbar__buttons">
-        <a href="#" class="navbar__button x-large">Iniciar Sesión</a>
-        <a href="#" class="navbar__button--signup x-large">Registrarte</a>
+    <nav class="header__navbar container">
+      <div class="row navbar__row">
+        <div class="d-inlineflex">
+          <img class="navbar__logo" src="assets/img/logo.png" alt="logo agere">
+          <ul class="navbar__navlinks">
+            <li class="navbar__link x-large"><a href="#">Acerca de</a></li>
+            <li class="navbar__link x-large"><a href="#">Tienda</a></li>
+          </ul>
+        </div>
+        <div class="navbar__buttons">
+          <a href="#" class="navbar__button x-large">Iniciar Sesión</a>
+          <a href="#" class="navbar__button navbar__button--signup x-large">Registrarte</a>
+        </div>
       </div>
     </nav>
     <section class="hero row">
+      <div class="hero__imageContainer">
+        <img class="hero__image" src="assets/img/img-1.png" alt="cafe">
+      </div>
       <div class="hero__title">
         <h1 class="xxx-large hero__mainTitle">
           Café Agere
@@ -45,9 +48,9 @@ crossorigin="anonymous"
       </div>
     </section>
   </header>
-  <main class="main container">
-    <div class="row">
-      <section class="features">
+  <main class="main container__fluid">
+    <div class="container">
+      <section class="features row">
         <div class="features__feature">
           <span class="xx-large">+50</span>
           <p class="medium">Variedades de Café</p>
@@ -67,7 +70,7 @@ crossorigin="anonymous"
       <section class="meetus row">
         <div class="meetus__text">
           <h2 class="meetus__title xx-large">Ven a Conocernos</h2>
-          <p>Disfruta de una gran experiencia tomando un café o un té dentro de nuestra tienda o si prefieres puedes comprar en línea nuestros cafés para distrutarlos en casa.</p>
+          <p class="medium">Disfruta de una gran experiencia tomando un café o un té dentro de nuestra tienda o si prefieres puedes comprar en línea nuestros cafés para distrutarlos en casa.</p>
         </div>
         <div class="map">
           <img class="map__image" src="assets/img/img-4.png" alt="mapa">

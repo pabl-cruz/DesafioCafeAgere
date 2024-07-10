@@ -1,0 +1,14 @@
+.container{
+  display: flex;
+  width: 85%;
+  margin: 0 auto;
+  &__fluid{
+    width: 100%;
+  }
+}
+
+.row{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
