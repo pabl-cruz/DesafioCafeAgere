@@ -1,0 +1,27 @@
+.features{
+  position: absolute;
+  width: 50%;
+  max-height: 20%;
+  background: $white;
+  &__feature{
+    padding: 2rem;
+    width: 16%;
+    &--button{
+      background-color: $coral;
+    }
+  }
+  &__text{
+    padding: 1rem 0;
+  }
+  &__arrow{
+    text-align: center;
+    position: relative;
+    color: $white;
+    background-color: $flame;
+    padding-top: 72px;
+    top: -6vh;
+    left: -3vw;
+    width: 149%;
+    height: 100%;
+  }
+}

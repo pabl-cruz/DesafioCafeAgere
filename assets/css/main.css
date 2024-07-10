@@ -19,13 +19,13 @@
 .xx-large {
   font-family: "PT Mono";
   font-size: 40px;
-  font-weight: 600;
+  font-weight: 500;
 }
 
-.xx-large {
+.x-large {
   font-family: "PT Mono";
-  font-size: 30px;
-  font-weight: 600;
+  font-size: 20px;
+  font-weight: 500;
 }
 
 .large {
@@ -53,6 +53,34 @@
   border: none;
   padding: 6px;
   margin-right: 0;
+}
+
+.features {
+  position: absolute;
+  width: 50%;
+  max-height: 20%;
+  background: #ffffff;
+}
+.features__feature {
+  padding: 2rem;
+  width: 16%;
+}
+.features__feature--button {
+  background-color: #eacb31;
+}
+.features__text {
+  padding: 1rem 0;
+}
+.features__arrow {
+  text-align: center;
+  position: relative;
+  color: #ffffff;
+  background-color: #e4572e;
+  padding-top: 72px;
+  top: -6vh;
+  left: -3vw;
+  width: 149%;
+  height: 100%;
 }
 
 .navbar__logo {
@@ -116,6 +144,15 @@
 }
 .hero__title {
   width: 17%;
+}
+
+.features {
+  top: 55vh;
+  left: 33vw;
+}
+
+svg {
+  font-size: 3rem;
 }
 
 .d-inlineflex {
