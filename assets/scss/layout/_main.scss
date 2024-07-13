@@ -1,10 +1,10 @@
 .features{
-  top: 53vh;
+  top: 50vh;
   left: 36vw;
 }
 
 .meetus{
-  width: 75%;
+  width: 72%;
   &__text{
     width: 35%;
 
@@ -12,5 +12,30 @@
 }
 
 .map{
- width: 52%; 
+ width: 50%; 
+}
+
+@media screen and (max-width: 1540px) {
+  .features{
+    left: 23vw;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .features{
+    left: 17vw;
+  }
+  .map{
+    width: 40%; 
+   }
+}
+@media screen and (max-width: 1080px) {
+  .features{
+    left: 13vw;
+  }
+}
+@media screen and (max-width: 950px) {
+  .features{
+    top: 55vh;
+    left: 0;
+  }
 }

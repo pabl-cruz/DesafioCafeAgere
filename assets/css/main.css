@@ -57,14 +57,14 @@
 
 .features {
   position: absolute;
-  width: 50%;
+  width: 36%;
   max-height: 20%;
   background: #ffffff;
-  z-index: 2;
+  z-index: 3;
 }
 .features__feature {
-  padding: 1.6rem;
-  width: 17%;
+  padding: 1.5rem;
+  width: 22%;
 }
 .features__feature--button {
   background-color: #eacb31;
@@ -72,25 +72,32 @@
 .features__text {
   padding: 1rem 0;
 }
-.features__arrow {
-  text-align: center;
-  position: relative;
-  color: #ffffff;
-  background-color: #e4572e;
-  padding-top: 69px;
-  top: -6vh;
-  left: -3vw;
-  width: 140%;
-  height: 98%;
-}
 
+@media screen and (max-width: 1540px) {
+  .features {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .features {
+    width: 55%;
+  }
+}
+@media screen and (max-width: 950px) {
+  .features {
+    width: 75%;
+  }
+  .features__feature {
+    width: 26%;
+  }
+}
 .images {
-  width: 25%;
+  width: 28%;
 }
 .images__cafe {
-  width: 150px;
+  width: 130px;
   position: absolute;
-  height: 270px;
+  height: 260px;
   -o-object-fit: cover;
      object-fit: cover;
   margin-left: -65px;
@@ -100,6 +107,8 @@
   width: 100%;
   margin-bottom: -4px;
   height: 30vh;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .navbar__logo {
@@ -108,10 +117,11 @@
 }
 
 .meetus__title {
-  margin-top: 3rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 .meetus__text {
-  padding: 2rem 5rem 5rem 5rem;
+  padding: 2rem 4rem 4rem 4rem;
 }
 
 .map {
@@ -120,7 +130,7 @@
 .map__image {
   width: 85%;
   position: relative;
-  top: 51px;
+  top: 30px;
   right: 31px;
 }
 
@@ -158,7 +168,7 @@
 }
 
 .header__navbar {
-  padding: 2rem;
+  padding: 1rem;
 }
 
 .navbar__buttons {
@@ -170,8 +180,9 @@
 }
 
 .hero__imageContainer {
-  width: 75%;
+  width: 100%;
   height: 60vh;
+  z-index: 1;
 }
 .hero__image {
   height: 100%;
@@ -180,25 +191,76 @@
   width: 100%;
 }
 .hero__title {
-  width: 17%;
+  width: 20%;
+  position: absolute;
+  right: 0;
+  z-index: 4;
+  height: 47vh;
+  background-color: #ffffff;
+}
+.hero__arrow {
+  text-align: center;
+  position: relative;
+  color: #ffffff;
+  background-color: #e4572e;
+  padding-top: 69px;
+  padding-bottom: 69px;
+  top: -4rem;
+  left: -4rem;
+  width: 140%;
+  height: 45%;
+}
+.hero__feature {
+  padding: 1.6rem;
+  width: 34%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.hero__feature--button {
+  background-color: #eacb31;
 }
 
 .features {
-  top: 53vh;
+  top: 50vh;
   left: 36vw;
 }
 
 .meetus {
-  width: 75%;
+  width: 72%;
 }
 .meetus__text {
   width: 35%;
 }
 
 .map {
-  width: 52%;
+  width: 50%;
 }
 
+@media screen and (max-width: 1540px) {
+  .features {
+    left: 23vw;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .features {
+    left: 17vw;
+  }
+  .map {
+    width: 40%;
+  }
+}
+@media screen and (max-width: 1080px) {
+  .features {
+    left: 13vw;
+  }
+}
+@media screen and (max-width: 950px) {
+  .features {
+    top: 55vh;
+    left: 0;
+  }
+}
 svg {
   font-size: 4rem;
 }

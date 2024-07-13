@@ -1,12 +1,12 @@
 .features{
   position: absolute;
-  width: 50%;
+  width: 36%;
   max-height: 20%;
   background: $white;
-  z-index: 2;
+  z-index: 3;
   &__feature{
-    padding:1.6rem;
-    width: 17%;
+    padding:1.5rem;
+    width: 22%;
     &--button{
       background-color: $coral;
     }
@@ -14,15 +14,26 @@
   &__text{
     padding: 1rem 0;
   }
-  &__arrow{
-    text-align: center;
-    position: relative;
-    color: $white;
-    background-color: $flame;
-    padding-top: 69px;
-    top: -6vh;
-    left: -3vw;
-    width: 140%;
-    height: 98%;
+}
+
+
+@media screen and (max-width: 1540px){
+  .features{
+    width: 50%;
   }
+}
+
+@media screen and (max-width: 1280px){
+  .features{
+    width: 55%;
+  }
+}
+@media screen and (max-width: 950px){
+  .features{
+    width: 75%;
+    &__feature{
+      width: 26%;
+    }
+  }
+  
 }

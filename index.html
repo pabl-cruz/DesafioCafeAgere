@@ -1,88 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="author" content="Pablo Cruz">
-  <meta name="description" content="Mockup café Agere para Desafío de Cajas y Layout Desafío Latam"> 
-  <link rel="shortcut icon" href="assets/img/logo.png" type="image/x-icon">
-  <title>Café Agere</title>
-  <!--Google Fonts-->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=PT+Mono&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-<!--FontAwesome 6.5.2-->
-<script
-src="https://kit.fontawesome.com/7888b3c04e.js"
-crossorigin="anonymous"
-></script>
-<!--estilos-->
-<link rel="stylesheet" href="assets/css/main.css">
-</head>
-<body>
-  <header class="header">
-    <nav class="header__navbar container">
-      <div class="row navbar__row">
-        <div class="d-inlineflex">
-          <img class="navbar__logo" src="assets/img/logo.png" alt="logo agere">
-          <ul class="navbar__navlinks">
-            <li class="navbar__link x-large"><a href="#">Acerca de</a></li>
-            <li class="navbar__link x-large"><a href="#">Tienda</a></li>
-          </ul>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Pablo Cruz" />
+    <meta
+      name="description"
+      content="Mockup café Agere para Desafío de Cajas y Layout Desafío Latam"
+    />
+    <link rel="shortcut icon" href="assets/img/logo.png" type="image/x-icon" />
+    <title>Café Agere</title>
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=PT+Mono&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!--FontAwesome 6.5.2-->
+    <script
+      src="https://kit.fontawesome.com/7888b3c04e.js"
+      crossorigin="anonymous"
+    ></script>
+    <!--estilos-->
+    <link rel="stylesheet" href="assets/css/main.css" />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="header__navbar container">
+        <div class="row navbar__row">
+          <div class="d-inlineflex">
+            <img
+              class="navbar__logo"
+              src="assets/img/logo.png"
+              alt="logo agere"
+            />
+            <ul class="navbar__navlinks">
+              <li class="navbar__link x-large"><a href="#">Acerca de</a></li>
+              <li class="navbar__link x-large"><a href="#">Tienda</a></li>
+            </ul>
+          </div>
+          <div class="navbar__buttons">
+            <a href="#" class="navbar__button x-large">Iniciar Sesión</a>
+            <a href="#" class="navbar__button navbar__button--signup x-large"
+              >Registrarte</a
+            >
+          </div>
         </div>
-        <div class="navbar__buttons">
-          <a href="#" class="navbar__button x-large">Iniciar Sesión</a>
-          <a href="#" class="navbar__button navbar__button--signup x-large">Registrarte</a>
+      </nav>
+      <section class="hero row">
+        <div class="hero__imageContainer">
+          <img class="hero__image" src="assets/img/img-1.png" alt="cafe" />
         </div>
-      </div>
-    </nav>
-    <section class="hero row">
-      <div class="hero__imageContainer">
-        <img class="hero__image" src="assets/img/img-1.png" alt="cafe">
-      </div>
-      <div class="hero__title">
-        <h1 class="xxx-large hero__mainTitle">
-          Café Agere
-        </h1>
-        <p class="large hero__subTitle">Coffee Shop</p>
-      </div>
-    </section>
-  </header>
-  <main class="main container__fluid">
-    <div class="row">
-      <section class="features row">
-        <div class="features__feature">
-          <span class="xx-large">+50</span>
-          <p class="features__text medium">Variedades de Café</p>
-        </div>
-        <div class="features__feature">
-          <span class="xx-large">20</span>
-          <p class="features__text medium">Países diferentes</p>
-        </div>
-        <div class="features__feature">
-          <span class="xx-large">+1000</span>
-          <p class="features__text medium">Accesorios para hacer el mejor café</p>
-        </div>
-        <div class="features__feature features__feature--button">
-          <div class="features__arrow">
-            <i class="fa-solid fa-arrow-right"></i>
+        <div class="hero__title">
+          <h1 class="xxx-large hero__mainTitle">Café Agere</h1>
+          <p class="large hero__subTitle">Coffee Shop</p>
+          <div class="hero__feature hero__feature--button">
+            <div class="hero__arrow">
+              <i class="fa-solid fa-arrow-right"></i>
+            </div>
           </div>
         </div>
       </section>
-      <section class="meetus row">
-        <div class="meetus__text">
-          <h2 class="meetus__title xx-large">Ven a Conocernos</h2>
-          <p class="medium">Disfruta de una gran experiencia tomando un café o un té dentro de nuestra tienda o si prefieres puedes comprar en línea nuestros cafés para distrutarlos en casa.</p>
-        </div>
-        <div class="map">
-          <img class="map__image" src="assets/img/img-4.png" alt="mapa">
-        </div>
-      </section>
-      <section class="images">
-        <img class="images__cafe" src="assets/img/img-3.png" alt="granos de café">
-        <img class="images__image" src="assets/img/img-2.png" alt="cafeteria">
-      </section>
-    </div>
-  </main>
-</body>
+    </header>
+    <main class="main container__fluid">
+      <div class="row">
+        <section class="features row">
+          <div class="features__feature">
+            <span class="xx-large">+50</span>
+            <p class="features__text medium">Variedades de Café</p>
+          </div>
+          <div class="features__feature">
+            <span class="xx-large">20</span>
+            <p class="features__text medium">Países diferentes</p>
+          </div>
+          <div class="features__feature">
+            <span class="xx-large">+1000</span>
+            <p class="features__text medium">
+              Accesorios para hacer el mejor café
+            </p>
+          </div>
+        </section>
+        <section class="meetus row">
+          <div class="meetus__text">
+            <h2 class="meetus__title xx-large">Ven a Conocernos</h2>
+            <p class="medium">
+              Disfruta de una gran experiencia tomando un café o un té dentro de
+              nuestra tienda o si prefieres puedes comprar en línea nuestros
+              cafés para distrutarlos en casa.
+            </p>
+          </div>
+          <div class="map">
+            <img class="map__image" src="assets/img/img-4.png" alt="mapa" />
+          </div>
+        </section>
+        <section class="images">
+          <img
+            class="images__cafe"
+            src="assets/img/img-3.png"
+            alt="granos de café"
+          />
+          <img
+            class="images__image"
+            src="assets/img/img-2.png"
+            alt="cafeteria"
+          />
+        </section>
+      </div>
+    </main>
+  </body>
 </html>

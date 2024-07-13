@@ -1,9 +1,9 @@
 .images{
-  width: 25%;
+  width: 28%;
   &__cafe{
-    width: 150px;
+    width: 130px;
     position: absolute;
-    height: 270px;
+    height: 260px;
     object-fit: cover;
     margin-left: -65px;
     z-index: 2;
@@ -12,5 +12,6 @@
     width: 100%;
     margin-bottom: -4px;
     height: 30vh;
+    object-fit: cover;
   }
 }
